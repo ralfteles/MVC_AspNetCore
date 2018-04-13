@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCompraCore", "WebCompraCore\WebCompraCore.csproj", "{663DEDDC-8DF7-481B-9B41-80AA1A33BA0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663DEDDC-8DF7-481B-9B41-80AA1A33BA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663DEDDC-8DF7-481B-9B41-80AA1A33BA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663DEDDC-8DF7-481B-9B41-80AA1A33BA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663DEDDC-8DF7-481B-9B41-80AA1A33BA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82DA112A-155B-408D-B258-E4A6550714CA}
+	EndGlobalSection
+EndGlobal

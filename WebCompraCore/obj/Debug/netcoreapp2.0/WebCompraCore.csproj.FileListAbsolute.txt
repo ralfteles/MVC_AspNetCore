@@ -1,0 +1,11 @@
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\bin\Debug\netcoreapp2.0\WebCompraCore.deps.json
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\bin\Debug\netcoreapp2.0\WebCompraCore.runtimeconfig.json
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\bin\Debug\netcoreapp2.0\WebCompraCore.runtimeconfig.dev.json
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\bin\Debug\netcoreapp2.0\WebCompraCore.dll
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\bin\Debug\netcoreapp2.0\WebCompraCore.pdb
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.csprojResolveAssemblyReference.cache
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.csproj.CoreCompileInputs.cache
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.AssemblyInfoInputs.cache
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.AssemblyInfo.cs
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.dll
+C:\Users\ralf_\Documents\GIT\WebCompraCore\WebCompraCore\obj\Debug\netcoreapp2.0\WebCompraCore.pdb

@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["title"] = "Carrinho";
+}
+@model WebCompraCore.Models.ViewModels.CarrinhoViewModel
+
+<h3>Meu Carrinho</h3>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-md-6">
+                Item
+            </div>
+            <div class="col-md-2 text-center">
+                Preço Unitário
+            </div>
+            <div class="col-md-2 text-center">
+                Quantidade
+            </div>
+            <div class="col-md-2">
+                <span class="pull-right">Subtotal</span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+
+        @foreach (var item in Model.Itens)
+        {
+            <div class="row row-center">
+                <div class="col-md-3">
+                    <img src="~/images/produtos/small_@(item.Id).jpg" />
+                </div>
+                <div class="col-md-3">
+                    @item.Produto.Nome
+                </div>
+                <div class="col-md-2 text-center">@item.PrecoUnitario</div>
+                <div class="col-md-2 text-center">@item.Quantidade</div>
+                <div class="col-md-2"><span class="pull-right">R$ @item.SubTotal</span></div>
+            </div>
+        }
+
+
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-10">
+                Total: @Model.Itens.Count() itens
+            </div>
+            <div class="col-md-2">
+                <span class="pull-right">Total: R$ @Model.Total</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <a asp-controller="Pedido" asp-action="resumo" class="btn btn-success"> Finalizar Pedido</a>
+            <a asp-controller="Pedido" asp-action="carrosel" class="btn btn-success"> Voltar</a>
+        </div>
+
+    </div>
+</div>
